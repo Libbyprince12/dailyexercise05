@@ -1,0 +1,6 @@
+"0","# 7. What is the mean flipper length of the penguins?"
+"0","mean(penguins$flipper_length_mm, na.rm = TRUE)"
+"1","[1]"
+"1"," 200.9152"
+"1","
+"

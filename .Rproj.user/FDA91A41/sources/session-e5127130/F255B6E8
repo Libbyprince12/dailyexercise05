@@ -1,0 +1,33 @@
+{
+    "id": "F255B6E8",
+    "path": "~/github/dailyexercise05/daily05.qmd",
+    "project_path": "daily05.qmd",
+    "type": "quarto_markdown",
+    "hash": "1542580546",
+    "contents": "",
+    "dirty": false,
+    "created": 1740338043429.0,
+    "source_on_save": true,
+    "relative_order": 2,
+    "properties": {
+        "rmdVisualMode": "true",
+        "rmdVisualWrapConfigured": "true",
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "7,0",
+        "scrollLine": "0",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "231:37",
+        "docOutlineSize": "110"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1740339395,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1740339395987,
+    "read_only": false,
+    "read_only_alternatives": []
+}

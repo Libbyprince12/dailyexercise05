@@ -1,0 +1,78 @@
+---
+title: "Daily Exercise 05"
+author: "Libby Prince"
+date: "2025-02-23"
+format: html
+---
+
+```{r}
+# Install and load the palmerpenguins package
+if (!require(palmerpenguins)) install.packages("palmerpenguins")
+library(palmerpenguins)
+
+```
+
+```{r}
+# 1. Examine the dataset using the `?Help` page
+head(penguins)
+
+```
+
+```{r}
+
+```
+
+```{r}
+# 2. What is the class of the penguins dataset?
+class(penguins)
+
+```
+
+```{r}
+# 3. What is the structure of the penguins dataset?
+str(penguins)
+
+```
+
+```{r}
+# 4. What are the dimensions of the penguins dataset?
+dim(penguins)
+
+```
+
+```{r}
+# 5. What are the column names of the penguins dataset?
+colnames(penguins)
+
+```
+
+```{r}
+# 6. What type of data is `flipper_length_mm` and `Island`?
+typeof(penguins$flipper_length_mm)
+typeof(penguins$island)
+
+```
+
+```{r}
+# 7. What is the mean flipper length of the penguins?
+mean(penguins$flipper_length_mm, na.rm = TRUE)
+
+```
+
+```{r}
+# 8. What is the standard deviation of flipper length in the penguins?
+sd(penguins$flipper_length_mm, na.rm = TRUE)
+
+```
+
+```{r}
+# 9. What is the median body mass of the penguins?
+median(penguins$body_mass_g, na.rm = TRUE)
+
+```
+
+```{r}
+# 10. What is the Island of the 100th penguin?
+penguins$island[100]
+
+```

@@ -1,0 +1,17 @@
+{
+  "hash": "260248ac15f19b83e83b5377774b3a66",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Analysis of the Palmer Penguins Dataset\"\nauthor: \"Libby Prince\"\ndate: \"2025-02-23\"\nformat: html\n---\n\n\n\n## Quarto\n\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\n\n> # \n\n?penguins\n\n# 1. Examine at the dataset using the ?Help page\n\n> ?penguins\n\n# 2. what is the class of the penguins dataset?\n\n> class(penguins)\n\n# 3. what is the structure of the penguins dataset?\n\n> str(penguins)\n>\n> # 4. what are the dimensions of the penguins dataset?\n>\n> > dim(penguins)\n",
+    "supporting": [
+      "dailyexercise05_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
