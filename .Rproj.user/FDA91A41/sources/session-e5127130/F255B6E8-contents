@@ -28,11 +28,15 @@ class(penguins)
 
 ```
 
+The class of the penguins dataset is data.frame
+
 ```{r}
 # 3. What is the structure of the penguins dataset?
 str(penguins)
 
 ```
+
+There are 344 rows and 8 columns, including variables like species, island, bill length, bill depth, flipper length, body mass, and sex.
 
 ```{r}
 # 4. What are the dimensions of the penguins dataset?
@@ -40,11 +44,15 @@ dim(penguins)
 
 ```
 
+The dataset has 344 rows and 8 columns.
+
 ```{r}
 # 5. What are the column names of the penguins dataset?
 colnames(penguins)
 
 ```
+
+The column names are species, island, bill_length_mm, bill_depth_mm, flipper_length_mm, body_mass_g, and sex.
 
 ```{r}
 # 6. What type of data is `flipper_length_mm` and `Island`?
@@ -53,11 +61,15 @@ typeof(penguins$island)
 
 ```
 
+The flipper_length_mm has numerical data and the island column contains text data.
+
 ```{r}
 # 7. What is the mean flipper length of the penguins?
 mean(penguins$flipper_length_mm, na.rm = TRUE)
 
 ```
+
+The mean flipper length is approximately 200.9 mm.
 
 ```{r}
 # 8. What is the standard deviation of flipper length in the penguins?
@@ -65,14 +77,20 @@ sd(penguins$flipper_length_mm, na.rm = TRUE)
 
 ```
 
+The standard deviation of flipper length is approximately 14.1 mm.
+
 ```{r}
 # 9. What is the median body mass of the penguins?
 median(penguins$body_mass_g, na.rm = TRUE)
 
 ```
 
+The median body mass of the penguins is approximately 4200 g.
+
 ```{r}
 # 10. What is the Island of the 100th penguin?
 penguins$island[100]
 
 ```
+
+The island of the 100th penguin is Biscoe Dream Torgersen
