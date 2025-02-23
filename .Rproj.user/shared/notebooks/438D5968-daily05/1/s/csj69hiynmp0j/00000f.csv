@@ -1,4 +1,4 @@
-"0","# Install and load the palmerpenguins package if not already installed"
+"0","# Install and load the palmerpenguins package"
 "0","if (!require(palmerpenguins)) install.packages(""palmerpenguins"")"
 "0","library(palmerpenguins)"
 "0",""
